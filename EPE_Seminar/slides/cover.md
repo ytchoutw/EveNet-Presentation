@@ -25,3 +25,9 @@
     <img src="/evenet-logo-color.svg" h-20 translate-y-4>
   </div>
 </div>
+
+<div class="subtitle" style="font-size: 18px; opacity: 0.92; position: absolute; right: 5.5rem; bottom: 14.5rem;">
+  <a href="https://arxiv.org/abs/2601.17126">
+    <div inline-block mr-1 translate-y-0.8 i-simple-icons:arxiv />arXiv:2601.17126
+  </a>
+</div>
