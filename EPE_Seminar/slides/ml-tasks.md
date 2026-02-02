@@ -5,9 +5,7 @@ transition: 'fade-out'
 
 # ML Tasks in High Energy Physics
 
-Current landscape of discriminative and generative modeling in collider physics [^1]
-
-[^1]: [HEP ML Living Review](https://iml-wg.github.io/HEPML-LivingReview/)
+Current landscape of discriminative and generative modeling in collider physics ([HEP ML Living Review](https://iml-wg.github.io/HEPML-LivingReview/)).
 
 <div class="mt-10 grid w-full gap-x-8" style="grid-template-columns: 1fr 1fr;">
   <!-- Left Card: Discriminative Tasks -->
