@@ -21,7 +21,7 @@ transition: fade
   </div>
   <div text-sm text="zinc-300" text-right flex flex-col gap-3 mt-3>
     <div>
-      Slides open sourced at <a href="https://github.com/AvencastF/EveNet-Presentation/tree/main/AI_HEP_Japan"><div inline-block mr-1 translate-y-0.8 i-ri:github-fill />EPE_Seminar</a>
+      Slides open sourced at <a href="https://github.com/AvencastF/EveNet-Presentation/tree/main/EPE_Seminar"><div inline-block mr-1 translate-y-0.8 i-ri:github-fill />EPE_Seminar</a>
     </div>
     <div>
       Slides built on top of <a href="https://sli.dev"><div inline-block mr-1 translate-y-0.8 i-logos:slidev />sli.dev</a>
