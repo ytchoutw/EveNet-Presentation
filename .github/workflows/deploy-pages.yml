@@ -32,6 +32,8 @@ jobs:
         run: npm i -g @slidev/cli
 
       - name: Build all presentations
+        env:
+          PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: 1
         run: |
           set -euo pipefail
 
@@ -44,12 +46,14 @@ jobs:
           for dir in */ ; do
             dir="${dir%/}"
             if [ -f "$dir/package.json" ]; then
-              echo "Building ${dir}"
+              echo "=== Building ${dir} ==="
               (
+                set -euo pipefail
                 cd "$dir"
-                ni
-                nr build --base "/${{ github.event.repository.name }}/${dir}/" --out "../site/${dir}"
+                npm ci
+                npm run build -- --base "/${{ github.event.repository.name }}/${dir}/" --out "../site/${dir}"
               )
+              echo "=== Done: ${dir} ==="
             fi
           done
 
