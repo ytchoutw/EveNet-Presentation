@@ -14,6 +14,7 @@
 
 <div class="mt-8 subtitle" style="font-size: 18px; opacity: 0.92;">
   <span style="color: #00e5ff; font-weight: 600;">Yuan-Tang Chou</span>
+  <span style="opacity: 0.75; font-weight: 400;"> · University of Washington</span>
 </div>
 
 <div class="mt-6 subtitle" style="font-size: 16px; line-height: 1.6; opacity: 0.88;">
